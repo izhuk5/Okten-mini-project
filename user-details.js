@@ -1,20 +1,3 @@
-// let url = new URL(location.href); // отримали поточу URL
-// let json = url.searchParams.get('data');
-// let post = JSON.parse(json); // тепер ми можемо побудувати якусь DOM структуру і вивести якусь інформацію
-// console.log(post);
-
-// На сторінці user-details.html:
-// 4 Вивести всю, без виключення, інформацію про об'єкт user на який клікнули
-// 5 Додати кнопку "post of current user", при кліку на яку, з'являються title всіх постів поточного юзера
-// (для получения постов используйте эндпоинт https://jsonplaceholder.typicode.com/users/USER_ID/posts)
-// 6 Каждому посту додати кнопку/посилання, при кліку на яку відбувається перехід на сторінку post-details.html, котра має детальну інфу про поточний пост
-
-// http методи
-// get - застосовуемо за замовченням. Наприклад запит на отримання постів
-// post - хочемо щось зберегти
-// put - replace(update)
-// delete - видалити
-// path - update
 
 const body = document.querySelector('body');
 const btn = document.createElement('button');
